@@ -1,5 +1,46 @@
-container {
+.container {
+  width: 80%;
+  max-width: 1050px;
+  height: auto;
+  margin: auto;
   display: grid;
-  grid-template-columns: 370px 136px 136px 136px 136px 136px;
-  grid-template-rows: 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px;
+  grid-template-columns: 0.35fr 0.13fr 0.13fr 0.13fr 0.13fr 0.13fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  border: 1px solid #30e8cc;
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+.item {
+  border: 1px solid #30e8cc;
+  background-color: white;
+}
+
+.bg-blue--light {
+  background-color: #effbfb;
+}
+
+.bg-blue--dark {
+  background-color: #0a3b40;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #565656;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.p10-l {
+  padding-left: 10px;
 }
