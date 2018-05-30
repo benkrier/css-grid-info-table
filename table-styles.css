@@ -5,7 +5,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 0.35fr 0.13fr 0.13fr 0.13fr 0.13fr 0.13fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-auto-rows: 48px;
   border: 1px solid #30e8cc;
   font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
   font-weight: 300;
@@ -34,13 +34,22 @@
 
 p {
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 2.5;
+  margin: 0;
 }
 
 .text-align-center {
   text-align: center;
 }
 
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
 .p10-l {
   padding-left: 10px;
+}
+
+.m0-a {
+  margin: 0;
 }
